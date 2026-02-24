@@ -1,0 +1,10 @@
+name = "MathAI"
+version = "0.1.0"
+defaultTargets = ["mathai"]
+
+[[lean_lib]]
+name = "MathAI"
+
+[[lean_exe]]
+name = "mathai"
+root = "Main"
